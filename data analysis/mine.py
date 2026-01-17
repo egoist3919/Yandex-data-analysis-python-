@@ -13,7 +13,7 @@ if data['M'] <= 0:
     print('Во введённых данных ошибка')
     exit()
 
-if data['N'] <= 3:
+if data['N'] < 3:
     print('Во введённых данных ошибка')
     exit()
 if not (
